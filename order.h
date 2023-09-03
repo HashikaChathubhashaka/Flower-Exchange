@@ -46,19 +46,19 @@ public:
         string quantityStr = to_string(quantity); // Convert quantity to a string
         
 
-        if (client_order_id.empty() || instrument.empty()|| sideStr.empty()||priceStr.empty()||quantityStr.empty()) {
+        if (client_order_id.empty() || instrument.empty() || sideStr.empty() || priceStr.empty() || quantityStr.empty() ) {
             return "Invalid fields";
         }
-        if (find(instruments.begin(), instruments.end(), instrument) == instruments.end()) {
+        else if (find(instruments.begin(), instruments.end(), instrument) == instruments.end()) {
             return "Invalid instrument";
         }
-        if (side != 1 && side != 2) {
+        else if (side != 1 && side != 2) {
             return "Invalid side";
         }
-        if (price <= 0.0) {
+        else if (price <= 0.00) {
             return "Invalid price";
         }
-        if (quantity % 10 != 0 || quantity < 10 || quantity >= 1000) {
+        else if (quantity % 10 != 0 || quantity <= 10 || quantity >= 1000) {
             return "Invalid size";
         }
 
