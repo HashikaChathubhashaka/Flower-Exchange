@@ -1,5 +1,5 @@
 Order ID,Cl. Ord. ID,Instrument,Side,Exec Status,Quantity,Price,Reason,Transaction Time
-ord1,aa13,Rose,2,New,100,55.00,,2023.09.03-21.11.24.570
-ord2,aa14,Rose,2,New,100,45.00,,2023.09.03-21.11.24.572
-ord3,aa15,Rose,1,Fill,100,45.00,,2023.09.03-21.11.24.573
-ord2,aa14,Rose,2,Fill,100,45.00,,2023.09.03-21.11.24.573
+ord1,aa13,Rose,2,New,100,55.00,,2023.09.03-21.13.56.441
+ord2,aa14,Rose,2,New,100,45.00,,2023.09.03-21.13.56.442
+ord3,aa15,Rose,1,Fill,100,45.00,,2023.09.03-21.13.56.442
+ord2,aa14,Rose,2,Fill,100,45.00,,2023.09.03-21.13.56.442
