@@ -1,3 +1,11 @@
+/*
+Code by ->
+
+    Hashika Chathubhshaka -  https://github.com/HashikaChathubhashaka
+    Sandeepa Dilshan      -  https://github.com/sandeepa0105
+
+*/
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
