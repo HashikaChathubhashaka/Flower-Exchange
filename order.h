@@ -46,10 +46,8 @@ public:
         string quantityStr = to_string(quantity); // Convert quantity to a string
         
 
-        if (client_order_id.empty() || instrument.empty() || sideStr.empty() || priceStr.empty() || quantityStr.empty() ) {
-            return "Invalid fields";
-        }
-        else if (find(instruments.begin(), instruments.end(), instrument) == instruments.end()) {
+        
+        if (find(instruments.begin(), instruments.end(), instrument) == instruments.end()) {
             return "Invalid instrument";
         }
         else if (side != 1 && side != 2) {
